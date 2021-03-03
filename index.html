@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentalApp</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/all.css">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__barra-superior contenedor">    
+            <h1 class="header__titulo wow animate__animated animate__backInUp"><span class="b">Dental</span>App</h1>
+            
+            <div class="navegacion">
+                <a class="enlace" href="#">Inicio</a>
+                <a class="enlace" href="#">Contacto</a>
+                <a class="enlace btn btn-special centrar-texto" href="#">Registrarse</a>
+            </div>
+
+            <nav class="navigation" role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu">
+                    <a class="enlace" href="#">Inicio</a>
+                    <a class="enlace" href="#">Contacto</a>
+                    <a class="enlace btn btn-special centrar-texto" href="#">Registrarse</a>
+                  </ul>
+                </div>
+              </nav>
+
+
+        </div>
+        <div class="hero">
+            <div class="contenedor hero__texto">
+                <h2 class="">Agende y planee hoy mismo sus citas dentales</h2>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <aside class="sidebar">
+            <h2 class="subtitulo">Testimoniales</h2>
+                <div class="testimonial wow animate__animated animate__flipInX">
+                    <div class="alinear-verticalmente">
+                        <div class="testimonial__avatar--contenedor">
+                            <img class="testimonial__avatar" src="img/avatar-1.png" alt="avatar">
+                        </div>
+                    </div>
+                    <blockquote class="cita no-margin no-padding">
+                        <p>
+                            "DentalApp ha sido mi mayor aliado para organizar mis consultas, mis clientes están cada vez más satisfechos y puedo organizar de mejor manera mis tiempos"
+                          <strong>- Horacio Lechuga</strong>
+                        </p>
+                      </blockquote>
+                </div> <!--  Testimonnial -->
+
+                <div class="testimonial wow animate__animated animate__flipInX">
+                    <div class="alinear-verticalmente">
+                        <div class="testimonial__avatar--contenedor">
+                            <img class="testimonial__avatar" src="img/avatar-3.png" alt="avatar">
+                        </div>
+                    </div>
+                    <blockquote class="cita no-margin no-padding">
+                        <p>
+                            "Gracias a DentalApp me puedo comunicar más eficazmente con mi dentista, no sé qué sería de mis dientes sin esta App"
+                          <strong>- David Calderón</strong>
+                        </p>
+                      </blockquote>
+                </div> <!--  Testimonnial -->
+
+                <div class="testimonial wow animate__animated animate__flipInX">
+                    <div class="alinear-verticalmente">
+                        <div class="testimonial__avatar--contenedor">
+                            <img class="testimonial__avatar" src="img/avatar-2.png" alt="avatar">
+                        </div>
+                    </div>
+                    <blockquote class="cita no-margin no-padding">
+                        <p>
+                            "Súper cool la forma en que esta app hace su trabajo, neta que agendar una cita nunca había sido tan fácil"
+                          <strong>- Raquel Calderón</strong>
+                        </p>
+                      </blockquote>
+                </div> <!--  Testimonnial -->
+        </aside>
+        
+        <main class="main">
+            <h2 class="subtitulo">Ventajas de usar DentalApp</h2>
+            <ul class="ventajas no-padding">
+                <li class="ventaja wow animate__animated animate__fadeInRight">
+                    <div class="vinieta">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="">
+                        <h4 class="ventaja__titulo">Registro y comunicación eficaz</h4>
+                        <p class="ventaja__texto">Planee y administre sus citas, ya sea si usted es un dentista o un paciente</p>
+                    </div>
+                </li>
+
+                <li class="ventaja wow animate__animated animate__fadeInRight">
+                    <div class="vinieta">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="">
+                        <h4 class="ventaja__titulo">Precios y paquetes muy accesibles</h4>
+                        <p class="ventaja__texto">Regístrese hoy mismo para tener un mes prueba de DentalApp</p>
+                    </div>
+                </li>
+
+                <li class="ventaja wow animate__animated animate__fadeInRight">
+                    <div class="vinieta">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <div class="">
+                        <h4 class="ventaja__titulo">Optimice su tiempo agendando citas</h4>
+                        <p class="ventaja__texto">Agende y planee citas desde la comodidad de su casa</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </div>
+
+    <footer class="footer">  
+        <div class="contenedor contenido--footer">
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+            <a href="#" class="footer__enlace">Enlace</a>
+
+        </div>
+
+        <div class="footer__barra-inferior contenedor">    
+            <h1 class="header__titulo"><span class="b">Dental</span>App</h1>
+            <p class="copyright no-margin">&copy; Todos los derechos reservados 2021</p>
+
+        </div>    
+    </footer>
+
+    <script src="js/WOW-master/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
