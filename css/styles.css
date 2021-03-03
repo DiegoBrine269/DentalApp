@@ -133,12 +133,6 @@ a{
     }
 }
 
-.webp {
-    background-image: url(../img/banner.webp) ;
-}
-.no-webp .header {
-    background-image: url(../img/banner.jpg) ;
-}
 
 /*Header*/
 .header{
@@ -159,7 +153,6 @@ a{
 
 .hero{
     /*background: linear-gradient(to bottom, blue, white);*/
-    background: linear-gradient(to right, rgb(202, 4, 4), rgba(202, 4, 4, 0.2)), url(../img/banner-2.jpg);
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -168,6 +161,23 @@ a{
     display: flex;
     align-items: center;
     -webkit-filter: hue-rotate(180deg); filter: hue-rotate(180deg); 
+}
+
+.webp .header .hero {
+    background: linear-gradient(to right, rgb(202, 4, 4), rgba(202, 4, 4, 0.2)), url(../img/banner-2-min.webp) ;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.no-webp .header .hero{
+    background: linear-gradient(to right, rgb(202, 4, 4), rgba(202, 4, 4, 0.2)), url(../img/banner-2-min.jpg) ;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
 
 .hero__texto{
